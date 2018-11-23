@@ -1,0 +1,36 @@
+#lol {
+padding: 10px;
+top: 200px;
+}
+
+header {
+    left: 50%;
+}
+
+article {
+    padding: 50 px;
+}
+
+#mann {
+    position: absolute;
+    top: 700px;
+    height: 145px;
+    width: 84px;
+    left: -150px;
+    background: url(../bilder/ga1.png);
+    background-position-x: 6px;
+    animation: gli 3s infinite linear,
+           run 0.5s infinite steps(6);
+}
+
+@keyframes gli {
+    0% {left:-150px; top:700px}
+    100% {left:1500px; top:700px}
+
+}
+
+@keyframes run {
+    100% {background-position-x: 600px};
+
+}
+
